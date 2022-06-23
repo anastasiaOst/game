@@ -6,6 +6,10 @@ document.addEventListener("keydown", function(event){
     jump()
 }); 
 
+document.addEventListener("click", function(event){ 
+    jump()
+}); 
+
 function jump(){
     if (dino.classList !="jump") {
         dino.classList.add ("jump")
